@@ -1,0 +1,14 @@
+# Tomcat
+server:
+    tomcat:
+        uri-encoding: UTF-8
+        max-threads: 1000
+        min-spare-threads: 30
+    port: 8011
+    context-path: /
+#rocketmq配置
+rocketmq:
+    producer:
+        namesrvAddr: 192.168.168.168:9876
+        sendMsgTimeout: 3000
+
